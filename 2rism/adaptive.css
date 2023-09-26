@@ -1,0 +1,119 @@
+/* @media (max-width: 1140px) {
+  .menu__item {
+    display: none;
+  }
+
+  .search__row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 771px) {
+  .card__header {
+    grid-template-columns: 50% 50%;
+  }
+} */
+
+/* main header  */
+@media (max-width: 1140px) {
+  .menu__item {
+    display: none;
+  }
+}
+/* @media (max-width: 345px) {
+  .places__head {
+    flex-wrap: wrap;
+  }
+} */
+@media (max-width: 1480px) {
+  .search__row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* destinations */
+@media (max-width: 1390px) {
+  .destinations__card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 720px) {
+  .destinations__card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 490px) {
+  .destinations__card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* .places__card */
+@media (max-width: 1245px) {
+  .places__card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 645px) {
+  .places__card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* tips */
+
+@media (max-width: 697px) {
+  .tips__card {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .post-info {
+    margin-top: -50px;
+  }
+}
+@media (max-width: 1425px) {
+  .tips__card {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+/* activities */
+/* .activities__footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+} */
+@media (max-width: 1245px) {
+  .activities__footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 645px) {
+  .activities__footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* about */
+@media (max-width: 845px) {
+  .about__content {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 0px;
+  }
+  .about-png {
+    min-width: 320px;
+  }
+}
+/* footer */
+@media (max-width: 1210px) {
+  .footer__center-part {
+    display: none;
+  }
+}
+@media (max-width: 669px) {
+  .footer__content {
+    flex-wrap: wrap;
+  }
+  .footer__left-part {
+    max-width: 100%;
+  }
+  .sumbit-email {
+    flex-direction: column;
+  }
+}
